@@ -1,0 +1,17 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50px;
+}
+
+.gallery img {
+    width: 200px;
+   
+    margin: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

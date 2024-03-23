@@ -4,7 +4,7 @@ const axios = require('axios');
 
 const app = express();
 const PORT = process.env.PORT || 3010;
-const unsplashAccessKey = 'm3zjPaJBEwc6Baap38PoGgwmU20LFOaTBlcuf13g4Ws';
+const unsplashAccessKey = 'YOUR_UNSPLASH_ACCESS_KEY';
 
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
